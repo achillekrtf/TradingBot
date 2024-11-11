@@ -6,6 +6,7 @@ from mplfinance.original_flavor import candlestick_ohlc
 from matplotlib.animation import FuncAnimation
 from binance.client import Client
 from binance.exceptions import BinanceAPIException
+import os
 
 # Initialisation de la connexion avec Binance
 api_key = os.getenv("BINANCE_API_KEY")
