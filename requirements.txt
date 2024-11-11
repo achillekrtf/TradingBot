@@ -3,4 +3,4 @@ matplotlib==3.7.1
 mplfinance==0.12.9b7
 python-binance==1.0.16
 numpy==1.26.3
-os
+
