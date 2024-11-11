@@ -8,8 +8,8 @@ from binance.client import Client
 from binance.exceptions import BinanceAPIException
 
 # Initialisation de la connexion avec Binance
-api_key = '3a91a3b0b583c54b837940d52d1358076b521697e6e6a442cf3523d688399ed6'
-api_secret = '365f1d9d65fb86348a93e7535aa48dfb0b2eabc513993bfb5a2d1a7643cddcaa'
+api_key = os.getenv("BINANCE_API_KEY")
+api_secret = os.getenv("BINANCE_API_SECRET")
 client = Client(api_key, api_secret)
 
 # Paramètres de la stratégie et de simulation
