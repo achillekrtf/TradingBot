@@ -138,7 +138,7 @@ def update_graph(i):
     ax2.set_xlabel("Temps")
     ax2.set_ylabel("Valeur (USDT)")
     ax2.legend()
-
+'''
 
 # Configuration de la visualisation
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8))
@@ -146,3 +146,4 @@ ani = FuncAnimation(fig, update_graph, interval=60000)  # Mise à jour toutes le
 
 print("Démarrage de la stratégie de trading...")
 plt.show()
+'''
